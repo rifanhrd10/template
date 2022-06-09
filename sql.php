@@ -1,0 +1,17 @@
+INSERT INTO `m_menu` (`id_menu`, `desk_menu`, `modul`, `path`, `ikon`, `level`, `parent`, `tipe`, `tampil`) VALUES
+('00001', 0x44617368626f617264, 'dashboard', 'modul/dashboard/view.php', 'fa fa-laptop', '1', NULL, '1', 'Y'),
+('00002', 0x44617461204b6172796177616e, NULL, NULL, 'fa fa-address-card-o', '1', NULL, '2', 'Y'),
+('00002-01', 0x4b6172796177616e20416b746966, 'karyawan_aktif', 'modul/karyawan/view.php', NULL, '2', '00002', NULL, 'Y'),
+('00002-02', 0x4b6172796177616e20546964616b20416b746966, 'karyawan_nonaktif', 'modul/karyawan_non/view.php', NULL, '2', '00002', NULL, 'Y'),
+('00003', 0x4461746120416273656e7369, NULL, NULL, 'fa fa-calendar', '1', NULL, '2', 'Y'),
+('00003-01', 0x446174612046696e6765722041736c69, 'absensi_finger', 'modul/finger/view.php', NULL, '2', '00003', NULL, 'Y'),
+('00003-02', 0x52656b617020416273656e7369, 'absensi_rekap', 'modul/absensi/view.php', NULL, '2', '00003', NULL, 'Y'),
+('00004', 0x50726f7365732050656e6767616a69616e, NULL, NULL, 'fa fa-clipboard', '1', NULL, '2', 'Y'),
+('00004-01', 0x47616a6920426572736968, 'gaji_bersih', 'modul/gaji_bersih/view.php', NULL, '2', '00004', NULL, 'Y'),
+('00005', 0x446174612041646d696e, NULL, NULL, 'fa fa-book', '1', NULL, '2', 'Y'),
+('00005-01', 0x446174612042616769616e204b6172796177616e, 'data_bagian', 'modul/adm_bagian/view.php', NULL, '2', '00005', NULL, 'Y'),
+('00005-02', 0x44617461204a61626174616e204b6172796177616e, 'data_jabatan', 'modul/adm_jabatan/view.php', NULL, '2', '00005', NULL, 'Y'),
+('00005-03', 0x446174612042616e6b204b6172796177616e, 'data_bank', 'modul/adm_bank/view.php', NULL, '2', '00005', NULL, 'Y'),
+('00005-04', 0x44617461204e6f6d696e616c, 'data_nominal', 'modul/adm_nominal/view.php', NULL, '2', '00005', NULL, 'Y'),
+('00005-05', 0x446174612054616e6767616c204d65726168, 'data_tgl_merah', 'modul/adm_tgl_merah/view.php', NULL, '2', '00005', NULL, 'Y'),
+('00005-06', 0x446174612053746174757320416273656e, 'data_sts_absen', 'modul/adm_sts_absen/view.php', NULL, '2', '00005', NULL, 'Y');
